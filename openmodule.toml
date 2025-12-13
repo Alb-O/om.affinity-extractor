@@ -4,4 +4,4 @@ description = "Extract design assets from Affinity Designer files (.af, .afdesig
 license = "MIT"
 
 [triggers]
-context = [".af", ".afdesign", "affinity"]
+any-msg = [".af", ".afdesign", "affinity"]
